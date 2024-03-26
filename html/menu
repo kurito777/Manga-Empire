@@ -13,7 +13,11 @@
 
     <input type="submit" value="Iniciar Sesión">
 </form>
+<p><a href="forgot_password.html">¿Olvidaste tu contraseña?</a></p>
 
+<p>¿No posees una cuenta? <a href="register.html">Registrate aquí</a></p>
+</body>
+</html>
     
 
 
