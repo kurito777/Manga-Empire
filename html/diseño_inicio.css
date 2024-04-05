@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(12, 12, 12);
 }
 header {
-    background-color: black;
-    color: white;
+    
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
 }
@@ -13,16 +14,16 @@ h1 {
     margin: 0;
     display: inline-block;
     padding: 0 20px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 main {
     padding: 20px;
 }
-form {
-    border: 2px solid white;
+.form {
+    border: 2px solid rgb(0, 0, 0);
     padding: 20px;
-    background-color: white;
-    color: black;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
     max-width: 400px;
     margin: 0 auto;
 }
@@ -39,13 +40,15 @@ input[type="text"] {
 }
 input[type="submit"] {
     background-color: black;
-    color: white;
+    color: rgb(255, 0, 0);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color: #333;
+    color: #ffffff;   
+    outline-color: #fcfcfc;
+    background-color: #fcfcfc;
 }
 .manga-images {
     display: flex;
