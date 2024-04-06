@@ -19,13 +19,7 @@
                 <label for="nombre_manga">Nombre del Manga:</label>
                 <input type="text" id="nombre_manga" name="nombre_manga" required>
             </div>
-            <input type="submit" value="Buscar">
-        </form>
-        <div class="manga-images">
-            <img src="../img/img1.jpg" alt="Manga 1">
-            <img src="../img/img2.jpg" alt="Manga 2">
-            <img src="../img/img3.jpg" alt="Manga 3">
-        
+            <input type="submit" value="Buscar">       
         </div>
     </main>
 </body>
