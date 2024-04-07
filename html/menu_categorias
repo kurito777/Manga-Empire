@@ -21,6 +21,22 @@
             </div>
             <input type="submit" value="Buscar">       
         </div>
+        <h2>Categorías de Manga</h2>
+            <ul>
+                <li><a href="#">Acción</a></li>
+                <li><a href="#">Aventura</a></li>
+                <li><a href="#">Comedia</a></li>
+                <li><a href="#">Drama</a></li>
+                <li><a href="#">Fantasía</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Mecha</a></li>
+                <li><a href="#">Misterio</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Sci-Fi</a></li>
+                <li><a href="#">Shounen</a></li>
+                <li><a href="#">Slice of Life</a></li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
