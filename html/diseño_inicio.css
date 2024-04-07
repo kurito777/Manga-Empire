@@ -20,17 +20,17 @@ main {
     padding: 20px;
 }
 .form {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(241, 239, 239);
     padding: 20px;
-    background-color: rgb(12, 12, 12);
-    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    color: rgb(0, 0, 255);
     max-width: 400px;
     margin: 0 auto;
 }
 label {
     display: block;
     margin-bottom: 10px;
-    color: black;
+    color: rgb(25, 59, 170);
 }
 input[type="text"] {
     width: 100%;
@@ -46,7 +46,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    color: #d31e1e;   
+    color: #f1e8e8;   
     outline-color: #e21010;
     background-color: #cc0e0e;
 }
