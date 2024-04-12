@@ -20,17 +20,19 @@ main {
     padding: 20px;
 }
 .form {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(241, 239, 239);
     padding: 20px;
-    background-color: rgb(12, 12, 12);
-    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17); 
+    color: rgb(0, 0, 255); 
     max-width: 400px;
     margin: 0 auto;
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white; 
 }
 label {
     display: block;
     margin-bottom: 10px;
-    color: black;
+    color: rgb(25, 59, 170);
 }
 input[type="text"] {
     width: 100%;
@@ -39,16 +41,16 @@ input[type="text"] {
     box-sizing: border-box;
 }
 input[type="submit"] {
-    background-color: black;
-    color: rgb(255, 0, 0);
+    background-color: rgb(245, 241, 241);
+    color: rgb(53, 12, 235);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    color: #ffffff;   
-    outline-color: #fcfcfc;
-    background-color: #fcfcfc;
+    color: #f1e8e8;   
+    outline-color: #e21010;
+    background-color: #cc0e0e;
 }
 .manga-images {
     display: flex;

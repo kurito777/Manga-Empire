@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Inicio - Manga Empire</title>
+    <link rel="stylesheet" href="diseño_inicio.css"> 
+</head>
+<body>
+    <header>
+        <img src="../img/imgfd.jpg" alt="fondoh">
+        <h1><a href="menu_inicio">Inicio</a></h1>
+        <h1><a href="menu_manga">Mangas</a></h1>
+        <h1><a href="menu_categorias">Categorias</a></h1>
+         </header>
+    <main>
+        <div class="form">
+            <form action="/buscarManga" method="post">
+                <div>
+                    <label for="nombre_manga">Nombre del Manga:</label>
+                    <input type="text" id="nombre_manga" name="nombre_manga" required>
+                </div>
+                <input type="submit" value="Buscar">       
+            </form>
+        </div>
+        <h2>Categorías de Manga</h2>
+            <ul>
+                <li><a href="#">Acción</a></li>
+                <li><a href="#">Aventura</a></li>
+                <li><a href="#">Comedia</a></li>
+                <li><a href="#">Drama</a></li>
+                <li><a href="#">Fantasía</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Mecha</a></li>
+                <li><a href="#">Misterio</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Sci-Fi</a></li>
+                <li><a href="#">Shounen</a></li>
+                <li><a href="#">Slice of Life</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
